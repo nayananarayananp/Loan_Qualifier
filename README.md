@@ -311,3 +311,43 @@ Changes to be committed:
 (dev)
 ```
 Finally, committed with a message and git push to finish the challenge.
+
+```
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   README.md
+        modified:   app.py
+        new file:   data/qualifying_loans_300k.csv
+        new file:   data/qualifying_loans_500k.csv
+        modified:   qualifier/utils/fileio.py
+        new file:   terminal_history.txt
+
+(dev)
+nayan@NayanaWork MINGW64 ~/Fintech-Workspace/Challenge/Loan_Qualifier (main)
+$ git commit -m "Push with challenge code and documentation complete"
+[main d1c7c5e] Push with challenge code and documentation complete
+ 6 files changed, 367 insertions(+), 5 deletions(-)
+ rewrite README.md (63%)
+ create mode 100644 data/qualifying_loans_300k.csv
+ create mode 100644 data/qualifying_loans_500k.csv
+ create mode 100644 terminal_history.txt
+(dev)
+nayan@NayanaWork MINGW64 ~/Fintech-Workspace/Challenge/Loan_Qualifier (main)
+$ git push
+Enumerating objects: 18, done.
+Counting objects: 100% (18/18), done.
+Delta compression using up to 16 threads
+Compressing objects: 100% (11/11), done.
+Writing objects: 100% (11/11), 4.60 KiB | 1.53 MiB/s, done.
+Total 11 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/nayananarayananp/Loan_Qualifier.git
+   05708a5..d1c7c5e  main -> main
+(dev)
+nayan@NayanaWork MINGW64 ~/Fintech-Workspace/Challenge/Loan_Qualifier (main)
+```
+All files pushed to remote.

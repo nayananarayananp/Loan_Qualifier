@@ -1,0 +1,19 @@
+    1  cd Fintech-Workspace/Challenge/Loan_Qualifier/
+    2  conda activate dev
+    3  git config --list
+    4  git status
+    5  git add .
+    6  git status
+    7  git commit -m "Initial Commit of Loan_Analyzer Challenge"
+    8  git config --global user.email "n**************@gmail.com"
+    9  git config --global user.name "N***** *********"
+   10  git commit -m "Initial Commit of Loan_Analyzer Challenge"
+   11  git status
+   12  git push
+   13  git remote add origin https://github.com/nayananarayananp/Loan_Qualifier.git
+   14  git branch -M main
+   15  git push -u origin main
+   16  git status
+   17  python app.py
+   18  python app.py
+   19  history 100 > terminal_history.txt
